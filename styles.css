@@ -9,7 +9,7 @@
     flex-direction: row;
     padding: 100px;
     background-color: hsl(0, 100%, 74%) ;
-    height: 400px;
+    height: 100vh;
     background-image: url("images/bg-intro-desktop.png");
 
 }
@@ -87,4 +87,18 @@ input[type=text],[type=email], [type=password],select{
   
 .terms{
     text-align: center
+}
+
+@media all and (max-width:375px) {
+    .container-div{
+        display: block;
+    }
+    .sectionone{
+        width: 100%;
+        padding: auto;
+    }
+    .sectiontwo{
+        width: 100%;
+        padding: auto;
+    }
 }
